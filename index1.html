@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor de Video</title>
+    <style>
+        body {
+            background-color: pink;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .message {
+            font-size: 2em;
+            color: red;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .message span {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="message">
+        Feliz aniversario mi amorcito <span>&hearts;</span>
+    </div>
+    <video width="640" height="480" controls>
+        <source src="video de prueba.mp4" type="video/mp4">
+        Tu navegador no soporta la reproducción de video.
+    </video>
+</body>
+</html>
+
